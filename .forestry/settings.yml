@@ -9,6 +9,8 @@ sections:
   label: scala
   create: all
   match: "**/*"
+  templates:
+  - documentation-page
 - type: heading
   label: tutorials
 - type: heading
