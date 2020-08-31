@@ -4,6 +4,13 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: scala
+  label: scala
+  create: all
+  match: "**/*"
+- type: heading
+  label: tutorials
 - type: heading
   label: Content
 - type: directory
